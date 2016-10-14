@@ -1,6 +1,12 @@
 # Valod
 A simple NodeJS server side form validator
 
+**INSTALLATION**:
+
+```
+npm install valod
+```
+
 Very easy to use:
 ## Usage Example:
 
@@ -38,7 +44,7 @@ if(res.valid){
     console.log(res.errors);
 }
 
-// output: [ 'email not Valid', 'Invalid Name' ] 
+// output: [ 'email not Valid', 'Invalid Name' ]
 ```
 
 ## Norms
